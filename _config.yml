@@ -1,5 +1,5 @@
 title: Weekly Retail Insights
 description: Automated weekly analytics reports for retail businesses
-theme: cayman
+theme: jekyll-theme-cayman
 baseurl: "/retail-data-analysis"
 url: "https://keybladerhuy.github.io"
