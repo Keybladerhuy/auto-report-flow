@@ -27,8 +27,8 @@ Share a Google Sheet or Excel file — nothing else needed.
 **2. Automatic analysis, every week**
 Revenue trends, top products, customer behaviour. The system reads and analyses your updated data without anyone touching it.
 
-**3. Report arrives Monday morning**
-A PDF with charts, plain-language commentary, and a clear action for each finding.
+**3. Report built and delivered**
+A PDF is generated and sent to your email, Teams, Slack — whichever channel you prefer. Each finding comes with a plain-language comment and a clear next action.
 
 ---
 
