@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PYTHON="$(dirname "$0")/../.venv/bin/python"
+VENV_PYTHON="$(dirname "$0")/../.venv/bin/python"
+PYTHON="$([ -f "$VENV_PYTHON" ] && echo "$VENV_PYTHON" || echo "python")"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 TIMING_LOG="/tmp/pipeline_timing.txt"
 T0=$(date +%s)
