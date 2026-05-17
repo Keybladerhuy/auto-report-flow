@@ -23,10 +23,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Write Google Sheets credentials
-        if: ${{ secrets.GOOGLE_SHEETS_KEY_JSON != '' }}
+        env:
+          GOOGLE_SHEETS_KEY_JSON: ${{ secrets.GOOGLE_SHEETS_KEY_JSON }}
         run: |
-          echo '${{ secrets.GOOGLE_SHEETS_KEY_JSON }}' > /tmp/gsheets_key.json
-          echo "GOOGLE_SHEETS_KEY_PATH=/tmp/gsheets_key.json" >> $GITHUB_ENV
+          if [ -n "$GOOGLE_SHEETS_KEY_JSON" ]; then
+            echo "$GOOGLE_SHEETS_KEY_JSON" > /tmp/gsheets_key.json
+            echo "GOOGLE_SHEETS_KEY_PATH=/tmp/gsheets_key.json" >> $GITHUB_ENV
+          fi
 
       - name: Install Japanese fonts
         run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
