@@ -2,7 +2,7 @@
 
 **Weekly data analysis reports, delivered to your inbox — no dashboards, no manual work.**
 
-→ [See how it works](https://keybladerhuy.github.io/auto-report/pitch)
+→ [See how it works](https://keybladerhuy.github.io/auto-report-flow/pitch)
 
 ---
 
@@ -48,6 +48,6 @@ Open to freelance data analysis and reporting engagements.
 
 **毎週月曜の朝、分析レポートが自動でメールに届く。ダッシュボードも、担当者も不要。**
 
-→ [サービス紹介ページを見る](https://keybladerhuy.github.io/auto-report/pitch_ja)
+→ [サービス紹介ページを見る](https://keybladerhuy.github.io/auto-report-flow/pitch_ja)
 
 **[サンプルレポートをダウンロード（PDF）](output/report_sample_ja.pdf)**
